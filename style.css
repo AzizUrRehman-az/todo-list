@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.createList {
+  background-color: aliceblue;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 450px;
+}
+#title {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+#create-todo {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 307px;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+#btnAdd {
+  position: relative;
+  left: 15px;
+  top: 20px;
+  font-size: 20px;
+  padding: 5px 7px;
+  border: none;
+  background-color: #008cba;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+}
+#btnDelete {
+  position: relative;
+  /* left: 15px; */
+  top: 3px;
+  font-size: 20px;
+  padding: 5px 7px;
+  border: none;
+  background-color: #d11a2a;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.addList {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  width: 500px;
+  /* background-color: rgb(116, 99, 46); */
+  padding: 10px;
+  font-size: 25px;
+  height: 300px;
+  overflow: scroll;
+}
+
+.task {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #e6d5c5;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
